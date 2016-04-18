@@ -1,0 +1,84 @@
+@import 'variables';
+
+body {
+  background: $light-grey;
+  // background-image: url(../assets/orangecat.jpg);
+}
+
+h1 {
+    position: absolute;
+    top: 143px;
+    left: 621px;
+}
+
+nav {
+    background: black;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    float:right;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    line-height: 7;
+    font-weight: bolder;
+    font-family: arial;
+    font-size: 22px;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+    margin: 20px;
+    line-height: 7;
+    font-weight: bolder;
+    font-family: arial;
+    font-size: 22px;
+}
+
+h1.logo {
+    position: absolute;
+    top: 39px;
+    left: 93px;
+    color: white;
+    font-family: arial;
+    font-weight: bolder;
+}
+
+span.logo-span {
+    color: red;
+}
+
+input[type="text"] {
+    position: absolute;
+    top: 57px;
+    right: 223px;
+    height: 40px;
+    width: 200px;
+   
+}
+
+button {
+    position: absolute;
+    top: 57px;
+    right: 143px;
+    border: none;
+    background: red;
+    color: white;
+    height: 46px;
+    width: 80px;
+    font-family: arial;
+    font-size: medium;
+
+}
+
+li {
+    text-align: center;
+    margin-top: 208px;
+}
